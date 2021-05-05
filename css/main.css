@@ -1,3 +1,6 @@
+/* General Improvements */
+/* UserBGs */
+@import url(https://raw.githubusercontent.com/0J3-2/Aurora/master/css/import.css);
 /**
  * @name AmoledBD
  * @description An Amoled theme for BD (and powercord)
@@ -97,7 +100,6 @@
   transform: translate(0%, -10%);
 }
 
-/* General Improvements */
 /* Uncategorized */
 .uploadModal-2ifh8j,
 .footer-3mqk7D,
