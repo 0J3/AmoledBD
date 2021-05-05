@@ -77,12 +77,15 @@
 	--scrollbar-auto-scrollbar-color-thumb: #202225;
 	--scrollbar-auto-scrollbar-color-track: #2f3136;
 }
+
+/* Uncategorized */
 .uploadModal-2ifh8j,
 .footer-3mqk7D,
 .footer-2gL1pp,
 .root-1gCeng,
 .bd-addon-error,
-.peopleList-3c4jOR {
+.peopleList-3c4jOR,
+.colorDark-1yVQpk {
 	background: var(--background-primary) !important;
 	box-shadow: none !important;
 }
@@ -102,6 +105,21 @@
 	background-color: var(--background-quinary) !important;
 }
 
+/* Payment Pane */
+.paymentPane-3bwJ6A,
+.codeRedemptionRedirect-1wVR4b {
+	background-color: var(--background-quinary) !important;
+}
+
+/* Voice & Video */
+.notches-1sAcEM.gray-3_LNYR {
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='20' fill='%23000000'%3E%3Cpath fill-rule='evenodd' d='M0 0h8v20H0V0zm4 2a2 2 0 00-2 2v12a2 2 0 104 0V4a2 2 0 00-2-2z'/%3E%3C/svg%3E") !important;
+}
+
+.userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
+	background: var(--background-secondary) !important;
+}
+
 /* MENTION AUTOCOMPLET */
 .autocomplete-1vrmpx {
 	background: var(--background-secondary) !important;
@@ -114,4 +132,26 @@
 .base-1pYU8j.selectable-3dP3y-.selected-1Tbx07 {
 	background: var(--background-quaternary) !important;
 	filter: none;
+}
+
+/* My Account */
+.colorGrey-2DXtkV {
+	background: var(--background-quaternary) !important;
+}
+
+/* Game Activity */
+/* > NO GAME */
+.notDetected-33MY4s {
+	background: var(--background-quaternary) !important;
+}
+
+/*** BBD Only ***/
+/* Monaco Editor */
+.monaco-editor,
+.monaco-editor-background,
+.monaco-editor .inputarea.ime-input {
+	background: var(--background-quaternary) !important;
+}
+.monaco-editor .margin-view-overlays {
+	background: var(--background-quinary) !important;
 }
