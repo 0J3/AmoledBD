@@ -60,6 +60,8 @@
 	--background-secondary: #030303;
 	--background-secondary-alt: #020202;
 	--background-tertiary: #000000;
+	--background-quaternary: #111111; /* theme only */
+	--background-quinary: #070707; /* theme only */
 	--background-accent: #000000;
 	--background-floating: #050505;
 
@@ -76,10 +78,40 @@
 	--scrollbar-auto-scrollbar-color-track: #2f3136;
 }
 .uploadModal-2ifh8j,
-.footer-3mqk7D {
+.footer-3mqk7D,
+.footer-2gL1pp,
+.root-1gCeng,
+.bd-addon-error,
+.peopleList-3c4jOR {
 	background: var(--background-primary) !important;
 	box-shadow: none !important;
 }
 .container-6sXIoE.withTimeline-824fT_ {
 	border-bottom: none !important;
+}
+
+/* SPOILERS */
+.spoilerText-3p6IlD.hidden-HHr2R9 {
+	background: var(--background-secondary) !important;
+}
+.spoilerText-3p6IlD.hidden-HHr2R9:hover {
+	background: var(--background-secondary) !important;
+}
+.spoilerText-3p6IlD,
+.root-1gCeng {
+	background-color: var(--background-quinary) !important;
+}
+
+/* MENTION AUTOCOMPLET */
+.autocomplete-1vrmpx {
+	background: var(--background-secondary) !important;
+}
+.base-1pYU8j.selectable-3dP3y- {
+	background: var(--background-secondary) !important;
+	filter: grayscale() blur(2px);
+	transition: blur 1s;
+}
+.base-1pYU8j.selectable-3dP3y-.selected-1Tbx07 {
+	background: var(--background-quaternary) !important;
+	filter: none;
 }
