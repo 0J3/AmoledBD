@@ -1,6 +1,3 @@
-/* General Improvements */
-/* UserBGs */
-@import url(https://raw.githubusercontent.com/0J3-2/Aurora/master/css/import.css);
 /**
  * @name AmoledBD
  * @description An Amoled theme for BD (and powercord)
@@ -175,6 +172,16 @@
 /* > NO GAME */
 .notDetected-33MY4s {
   background: var(--background-quaternary) !important;
+}
+
+/* User Modal */
+.headerNormal-T_seeN {
+  background: var(--background-primary) !important;
+}
+
+.body-3iLsc4,
+.footer-1fjuF6 {
+  background: var(--background-secondary) !important;
 }
 
 /*** BBD Only ***/

@@ -8,4 +8,6 @@
  * @updateUrl https://0J3.github.io/AmoledBD/downloads/AmoledBD.theme.css
  */
 
-@import url(https://0j3.github.io/AmoledBD/theme.css);
+@import url('https://0j3.github.io/AmoledBD/theme.css');
+@import url('https://discord-custom-covers.github.io/usrbg/snippets/modals.css');
+@import url('https://discord-custom-covers.github.io/usrbg/snippets/userPopouts.css');
