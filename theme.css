@@ -78,6 +78,16 @@
 	--scrollbar-auto-scrollbar-color-track: #2f3136;
 }
 
+/* More yoinked from Discord */
+.theme-dark,
+.theme-light {
+	--toast-background: #0a0a0a;
+	--toast-header: #0c0c0c;
+	--toast-contents: #070707;
+	--toast-box-shadow: rgba(55, 0, 255, 0.281);
+	--toast-border: rgba(0, 0, 0, 0);
+}
+
 /* Uncategorized */
 .uploadModal-2ifh8j,
 .footer-3mqk7D,
@@ -91,6 +101,10 @@
 }
 .container-6sXIoE.withTimeline-824fT_ {
 	border-bottom: none !important;
+}
+.cardPrimary-1Hv-to,
+.cardPrimaryEditable-3KtE4g {
+	background: var(--background-quinary) !important;
 }
 
 /* SPOILERS */
