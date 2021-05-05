@@ -1,0 +1,18 @@
+@mixin hoverUpAnim($id, $time: 3s) {
+	.avatar-1BDn8e[data-user-id='#{$id}'] {
+		// animation-name: _anim_avatar_hover_up;
+		// animation-duration: 5s;
+		// animation-iteration-count: infinite;
+		transition: transform 1s;
+		transform: translate(0%, 0%);
+
+		&:hover {
+			transform: translate(0%, -10%);
+		}
+	}
+}
+
+// 0J3
+@include hoverUpAnim('596425713347723269');
+// Jay
+@include hoverUpAnim('290610400763052035');
