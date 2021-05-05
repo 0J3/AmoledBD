@@ -1,9 +1,9 @@
-@mixin hoverUpAnim($id, $time: 3s) {
+@mixin hoverUpAnim($id, $time: 2s) {
 	.avatar-1BDn8e[data-user-id='#{$id}'] {
 		// animation-name: _anim_avatar_hover_up;
-		// animation-duration: 5s;
+		// animation-duration: $time;
 		// animation-iteration-count: infinite;
-		transition: transform 1s;
+		transition: transform $time;
 		transform: translate(0%, 0%);
 
 		&:hover {
