@@ -1,5 +1,7 @@
 @mixin hoverUpAnim($id, $time: 1s) {
-	.avatar-1BDn8e[data-user-id='#{$id}'] {
+	[data-user-id='#{$id}'] .avatar-1BDn8e,
+	.avatar-1BDn8e[data-user-id='#{$id}'],
+	[data-author-id='596425713347723269'] .avatar-1BDn8e {
 		// animation-name: _anim_avatar_hover_up;
 		// animation-duration: $time;
 		// animation-iteration-count: infinite;

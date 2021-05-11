@@ -1,17 +1,33 @@
-.avatar-1BDn8e[data-user-id="596425713347723269"] {
+[data-user-id="596425713347723269"] .avatar-1BDn8e,
+.avatar-1BDn8e[data-user-id="596425713347723269"],
+[data-author-id="596425713347723269"] .avatar-1BDn8e {
   transition: transform 1s;
   transform: translate(0%, 0%);
 }
-.avatar-1BDn8e[data-user-id="596425713347723269"]:hover {
+[data-user-id="596425713347723269"] .avatar-1BDn8e:hover,
+.avatar-1BDn8e[data-user-id="596425713347723269"]:hover,
+[data-author-id="596425713347723269"] .avatar-1BDn8e:hover {
   transform: translate(0%, -10%);
 }
 
-.avatar-1BDn8e[data-user-id="290610400763052035"] {
+[data-user-id="290610400763052035"] .avatar-1BDn8e,
+.avatar-1BDn8e[data-user-id="290610400763052035"],
+[data-author-id="596425713347723269"] .avatar-1BDn8e {
   transition: transform 1s;
   transform: translate(0%, 0%);
 }
-.avatar-1BDn8e[data-user-id="290610400763052035"]:hover {
+[data-user-id="290610400763052035"] .avatar-1BDn8e:hover,
+.avatar-1BDn8e[data-user-id="290610400763052035"]:hover,
+[data-author-id="596425713347723269"] .avatar-1BDn8e:hover {
   transform: translate(0%, -10%);
+}
+
+.wrapper-129saQ {
+  transition: transform 1s !important;
+  transform: scale(1) !important;
+}
+.wrapper-129saQ:hover {
+  transform: scale(1.25) !important;
 }
 
 /*# sourceMappingURL=imports.css.map */
