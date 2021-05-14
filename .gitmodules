@@ -1,0 +1,3 @@
+[submodule "scss/libCCord"]
+	path = scss/libCCord
+	url = git@github.com:0J3/CustomizeCord.git
