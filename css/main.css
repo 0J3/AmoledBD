@@ -1,5 +1,5 @@
 /**
- * @name AmoledBD
+ * @name AmoledBD2
  * @description An Amoled theme for BD (and powercord)
  * @author 0J3#0001
  * @version 0.1.1
@@ -7,22 +7,26 @@
  * @source https://github.com/0J3/AmoledBD/tree/master
  * @updateUrl https://0J3.github.io/AmoledBD/downloads/AmoledBD.theme.css
  */
-/* SEE SCSS FOR SOURCE */
+/*
+  COPYRIGHT (c) 2021 NORA.LGBT. ALL RIGHTS RESERVED.
+*/
 .theme-dark,
 .theme-light {
-  /* dark theme styles */
-  --header-primary: #fff;
-  --header-secondary: #b9bbbe;
-  --text-normal: #dcddde;
-  --text-muted: #72767d;
+  /*** @ /SCSS/LIB/VARS:TEXT ***/
+  --text-normal: white;
+  --text-muted: #727272;
   --text-link: #00b0f4;
-  --channels-default: #8e9297;
-  --interactive-normal: #b9bbbe;
-  --interactive-hover: #dcddde;
-  --interactive-active: #fff;
-  --interactive-muted: #4f545c;
-  --background-mobile-primary: #36393f;
-  --background-mobile-secondary: #2f3136;
+  /*** @ /SCSS/LIB/VARS:BG ***/
+  --background-primary: #000000;
+  --background-secondary: #030303;
+  --background-secondary-alt: #030303;
+  --background-tertiary: #000000;
+  --background-quaternary: #111111;
+  --background-quinary: #070707;
+  --background-accent: #040404;
+  --background-floating: #050505;
+  --background-mobile-primary: #000000;
+  --background-mobile-secondary: #030303;
   --background-modifier-hover: rgba(79, 84, 92, 0.16);
   --background-modifier-active: rgba(79, 84, 92, 0.24);
   --background-modifier-selected: rgba(79, 84, 92, 0.32);
@@ -32,44 +36,11 @@
   --background-message-hover: rgba(4, 4, 5, 0.07);
   --background-help-warning: rgba(250, 166, 26, 0.1);
   --background-help-info: rgba(0, 176, 244, 0.1);
-  --elevation-stroke: 0 0 0 1px rgba(4, 4, 5, 0.15);
-  --elevation-low: 0 1px 0 rgba(4, 4, 5, 0.2), 0 1.5px 0 rgba(6, 6, 7, 0.05),
-  	0 2px 0 rgba(4, 4, 5, 0.05);
-  --elevation-medium: 0 4px 4px rgba(0, 0, 0, 0.16);
-  --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24);
-  --logo-primary: #fff;
-  --focus-primary: #00b0f4;
-  --radio-group-dot-foreground: #8ea1e1;
-  --guild-header-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
-  --activity-card-background: #202225;
-  --textbox-markdown-syntax: #8e9297;
-  --deprecated-card-bg: rgba(32, 34, 37, 0.6);
-  --deprecated-card-editable-bg: rgba(32, 34, 37, 0.3);
-  --deprecated-store-bg: #36393f;
-  --deprecated-quickswitcher-input-background: #72767d;
-  --deprecated-quickswitcher-input-placeholder: hsla(0, 0%, 100%, 0.3);
-  --deprecated-text-input-bg: rgba(0, 0, 0, 0.1);
-  --deprecated-text-input-border: rgba(0, 0, 0, 0.3);
-  --deprecated-text-input-border-hover: #040405;
-  --deprecated-text-input-border-disabled: #202225;
-  --deprecated-text-input-prefix: #dcddde;
-  /* replaced styles */
-  /* BGs */
-  --background-primary: #000000;
-  --background-secondary: #030303;
-  --background-secondary-alt: #020202;
-  --background-tertiary: #000000;
-  --background-quaternary: #111111;
-  /* theme only */
-  --background-quinary: #070707;
-  /* theme only */
-  --background-accent: #000000;
-  --background-floating: #050505;
   /* Textbox */
   --channeltextarea-background: var(--background-secondary);
   /* Scrollbars */
   --scrollbar-auto-thumb: #050505;
-  --scrollbar-auto-track: rgb(0, 0, 0);
+  --scrollbar-auto-track: #030303;
   --scrollbar-thin-thumb: #000000;
   --scrollbar-thin-track: transparent;
   --scrollbar-auto-scrollbar-color-thumb: #202225;
@@ -79,40 +50,17 @@
   --toast-contents: #070707;
   --toast-box-shadow: rgba(55, 0, 255, 0.281);
   --toast-border: rgba(0, 0, 0, 0);
+  /*** @ /SCSS/LIB/VARS:HEADER ***/
+  --header-primary: white;
+  --header-secondary: gray;
+  /*** @ /SCSS/LIB/VARS:INTERACTIVE ***/
+  --interactive-normal: #b9bbbe;
+  --interactive-hover: #dadbdd;
+  --interactive-active: #fff;
+  --interactive-muted: #4f545c;
 }
 
-[data-user-id="596425713347723269"] .avatar-1BDn8e,
-.avatar-1BDn8e[data-user-id="596425713347723269"],
-[data-author-id="596425713347723269"] .avatar-1BDn8e {
-  transition: transform 1s;
-  transform: translate(0%, 0%);
-}
-[data-user-id="596425713347723269"] .avatar-1BDn8e:hover,
-.avatar-1BDn8e[data-user-id="596425713347723269"]:hover,
-[data-author-id="596425713347723269"] .avatar-1BDn8e:hover {
-  transform: translate(0%, -10%);
-}
-
-[data-user-id="290610400763052035"] .avatar-1BDn8e,
-.avatar-1BDn8e[data-user-id="290610400763052035"],
-[data-author-id="596425713347723269"] .avatar-1BDn8e {
-  transition: transform 1s;
-  transform: translate(0%, 0%);
-}
-[data-user-id="290610400763052035"] .avatar-1BDn8e:hover,
-.avatar-1BDn8e[data-user-id="290610400763052035"]:hover,
-[data-author-id="596425713347723269"] .avatar-1BDn8e:hover {
-  transform: translate(0%, -10%);
-}
-
-.wrapper-129saQ {
-  transition: transform 1s !important;
-  transform: scale(1) !important;
-}
-.wrapper-129saQ:hover {
-  transform: scale(1.25) !important;
-}
-
+/*** @ /SCSS/LIB/FIXES:FIXES ***/
 /* Uncategorized */
 .uploadModal-2ifh8j,
 .footer-3mqk7D,
@@ -120,9 +68,20 @@
 .root-1gCeng,
 .bd-addon-error,
 .peopleList-3c4jOR,
-.colorDark-1yVQpk {
+.colorDark-1yVQpk,
+#ADD_FRIEND-tab {
   background: var(--background-primary) !important;
   box-shadow: none !important;
+}
+
+.inner-1ilYF7,
+.keyboardShortcutsModal-3piNz7 {
+  background: var(--background-secondary-alt) !important;
+}
+
+.keybindShortcut-1BD6Z1 span {
+  box-shadow: inset 0 -4px 0 var(--background-primary) !important;
+  -webkit-box-shadow: inset 0 -4px 0 var(--background-primary) !important;
 }
 
 .container-6sXIoE.withTimeline-824fT_ {
@@ -156,7 +115,7 @@
 
 /* Voice & Video */
 .notches-1sAcEM.gray-3_LNYR {
-  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='20' fill='%23000000'%3E%3Cpath fill-rule='evenodd' d='M0 0h8v20H0V0zm4 2a2 2 0 00-2 2v12a2 2 0 104 0V4a2 2 0 00-2-2z'/%3E%3C/svg%3E") !important;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='20' fill='%23000000ff'%3E%3Cpath fill-rule='evenodd' d='M0 0h8v20H0V0zm4 2a2 2 0 00-2 2v12a2 2 0 104 0V4a2 2 0 00-2-2z'/%3E%3C/svg%3E") !important;
 }
 
 .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
@@ -168,15 +127,199 @@
   background: var(--background-secondary) !important;
 }
 
+@keyframes inAnim-base-selectable-1 {
+  0% {
+    opacity: 0;
+    left: -10px;
+  }
+  0.5% {
+    opacity: 0;
+    left: -10px;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(1) .base-1pYU8j.selectable-3dP3y- {
+  animation-name: inAnim-base-selectable-1;
+  animation-duration: 200ms;
+  position: relative;
+}
+
+@keyframes inAnim-base-selectable-2 {
+  0% {
+    opacity: 0;
+    left: -10px;
+  }
+  0.25% {
+    opacity: 0;
+    left: -10px;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(2) .base-1pYU8j.selectable-3dP3y- {
+  animation-name: inAnim-base-selectable-2;
+  animation-duration: 400ms;
+  position: relative;
+}
+
+@keyframes inAnim-base-selectable-3 {
+  0% {
+    opacity: 0;
+    left: -10px;
+  }
+  0.1666666667% {
+    opacity: 0;
+    left: -10px;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(3) .base-1pYU8j.selectable-3dP3y- {
+  animation-name: inAnim-base-selectable-3;
+  animation-duration: 600ms;
+  position: relative;
+}
+
+@keyframes inAnim-base-selectable-4 {
+  0% {
+    opacity: 0;
+    left: -10px;
+  }
+  0.125% {
+    opacity: 0;
+    left: -10px;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(4) .base-1pYU8j.selectable-3dP3y- {
+  animation-name: inAnim-base-selectable-4;
+  animation-duration: 800ms;
+  position: relative;
+}
+
+@keyframes inAnim-base-selectable-5 {
+  0% {
+    opacity: 0;
+    left: -10px;
+  }
+  0.1% {
+    opacity: 0;
+    left: -10px;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(5) .base-1pYU8j.selectable-3dP3y- {
+  animation-name: inAnim-base-selectable-5;
+  animation-duration: 1000ms;
+  position: relative;
+}
+
+@keyframes inAnim-base-selectable-6 {
+  0% {
+    opacity: 0;
+    left: -10px;
+  }
+  0.0833333333% {
+    opacity: 0;
+    left: -10px;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(6) .base-1pYU8j.selectable-3dP3y- {
+  animation-name: inAnim-base-selectable-6;
+  animation-duration: 1200ms;
+  position: relative;
+}
+
+@keyframes inAnim-base-selectable-7 {
+  0% {
+    opacity: 0;
+    left: -10px;
+  }
+  0.0714285714% {
+    opacity: 0;
+    left: -10px;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(7) .base-1pYU8j.selectable-3dP3y- {
+  animation-name: inAnim-base-selectable-7;
+  animation-duration: 1400ms;
+  position: relative;
+}
+
+@keyframes inAnim-base-selectable-8 {
+  0% {
+    opacity: 0;
+    left: -10px;
+  }
+  0.0625% {
+    opacity: 0;
+    left: -10px;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(8) .base-1pYU8j.selectable-3dP3y- {
+  animation-name: inAnim-base-selectable-8;
+  animation-duration: 1600ms;
+  position: relative;
+}
+
+@keyframes inAnim-base-selectable-9 {
+  0% {
+    opacity: 0;
+    left: -10px;
+  }
+  0.0555555556% {
+    opacity: 0;
+    left: -10px;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa:nth-child(9) .base-1pYU8j.selectable-3dP3y- {
+  animation-name: inAnim-base-selectable-9;
+  animation-duration: 1800ms;
+  position: relative;
+}
+
 .base-1pYU8j.selectable-3dP3y- {
   background: var(--background-secondary) !important;
-  filter: grayscale(100%) blur(2px);
-  transition: blur 1s;
+  filter: blur(2px) grayscale(100%);
+  margin-left: 0;
+  margin-right: 15px;
+  transition: all 500ms;
 }
 
 .base-1pYU8j.selectable-3dP3y-.selected-1Tbx07 {
   background: var(--background-quaternary) !important;
   filter: none;
+  margin-left: 15px;
+  margin-right: 0;
 }
 
 /* My Account */
